@@ -1,5 +1,3 @@
-# my-js
- 
 ## 记录下日常的js积累以及todo-list
  
 
