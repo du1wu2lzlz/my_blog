@@ -10,3 +10,4 @@
 
 
 ### 进程与线程
+计算机基础问题，[参照这篇文章](http://www.ruanyifeng.com/blog/2013/04/processes_and_threads.html)
