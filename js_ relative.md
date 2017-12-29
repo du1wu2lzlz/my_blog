@@ -1,5 +1,6 @@
 ## 记录下日常的js积累以及todo-list  
    部分会写在[简书](https://www.jianshu.com/u/526461ebe7f6)上面
+   [收藏了一些有用的回答](https://segmentfault.com/u/du1wu2/bookmarks)
  
 
 ### 函数立即调用表达式
