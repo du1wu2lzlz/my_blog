@@ -9,4 +9,4 @@
   scope variables：作用域链上的变量，非常有用  
    * network：抓包查看每个请求，非常重要，前后端联调必备
    * timeline：分析渲染、js执行等等各个阶段，性能优化利器
-   * 　emulation：模拟移动端环境，mobile页面开发必备
+   * emulation：模拟移动端环境，mobile页面开发必备
