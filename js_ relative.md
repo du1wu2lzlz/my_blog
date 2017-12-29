@@ -24,3 +24,6 @@
    
 ### TODO
    [这里](http://blog.csdn.net/u014328357/article/details/58587132)的题目没有刷
+
+### 对于闭包 原型的理解
+  [这里](http://www.cnblogs.com/wangfupeng1988/p/4001284.html）博客可以参考下
