@@ -1,0 +1,10 @@
+晴妈整理的前端入门参考
+
+1.<JavaScript 高级程序设计> 按照下面的顺序看,代码一定要手写
+  (a)1-7,13,17,20,21,22,这些章节要精读
+  (b）读完上面几章,开始看中间落下没看的,即客户端JavaScript,可以泛读,大致了解,用到再参考
+  (c)学习MVVM框架,比如[Vue](https://cn.vuejs.org/v2/guide/);[React](https://reactjs.org/)等
+2.熟悉[MDN Web 技术文档](https://developer.mozilla.org/zh-CN/),随用随查,可以用里面的demo测试
+3.根据你的工作需要,学习一门后台语言  
+建议Node.js,基于Koa框架(最近流行)
+  
