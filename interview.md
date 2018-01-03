@@ -13,4 +13,4 @@
 
 +  [一些相对全的面试题以及答案](https://github.com/infp/Front-end-Interview)  
 
-+  [深入理解js系列](http://www.cnblogs.com/TomXu/archive/2011/12/15/2288411.html#3848276)
++  汤姆大叔[深入理解js系列](http://www.cnblogs.com/TomXu/archive/2011/12/15/2288411.html#3848276)
