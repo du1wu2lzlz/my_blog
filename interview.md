@@ -5,4 +5,8 @@
 
 +  [阮老师Js基础](https://github.com/wangdoc/javascript-tutorial)  
 
-+  [jquery源码解读](https://github.com/chokcoco/jQuery-)
++  [jquery源码解读](https://github.com/chokcoco/jQuery-)  
+
++  [Node.js 包教不包会](https://github.com/alsotang/node-lessons)  
+
++  [一些找实习的经验](https://github.com/topview-frontend/campus-recruitment/blob/master/interview/frontend_interview_by_timtsang.md)
