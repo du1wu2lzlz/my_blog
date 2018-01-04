@@ -175,4 +175,6 @@ http相关<a name="http"/>
 
 ```
 
+[更多参考](https://github.com/dongshaohan/jsnote#optimize)
+
 
