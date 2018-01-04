@@ -31,7 +31,8 @@
  
 ### 立即调用函数
 
-   [IIFE](https://github.com/dongshaohan/IIFE)
+   [IIFE](https://github.com/dongshaohan/IIFE)   
+   ###作用 javascript中没用私有作用域的概念，如果在多人开发的项目上，你在全局或局部作用域中声明了一些变量，可能会被其他人不小心用同名的变量给覆盖掉， 那么这时候就可以使用IIFE创建一个私有作用域来保护变量，防止命名冲突，俗称“匿名包裹器”或“命名空间”。
    
  ***
  
