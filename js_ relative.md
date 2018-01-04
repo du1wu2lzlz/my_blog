@@ -2,6 +2,7 @@
    部分会写在[简书](https://www.jianshu.com/u/526461ebe7f6)上面  
 [这里](https://segmentfault.com/u/du1wu2/bookmarks)收藏了segmentfault上面的一些有用的回答
  
+--
 
 ### 什么是 Event Loop？
   
