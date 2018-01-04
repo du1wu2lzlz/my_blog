@@ -2,7 +2,7 @@
 
 1.  考察this作用域
 
-```
+```javascript
 var foo = {
 	bar: '你好',
 	func: function () {
@@ -20,7 +20,7 @@ bar();
 ```
 
 2. this的指向问题
-```
+```javascript
 var x = 20;
 var temp = {
     x: 40,
