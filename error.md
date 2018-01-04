@@ -1,4 +1,15 @@
 
+
+```javasrcipt
+try{
+     //可能会导致错误的代码
+} catch(error) {
+    //在错误发生时如何处理
+} 
+```
+
+
+
 ```javascript
  var test = function(values){ 
              if(!(values instanceof Array)){
