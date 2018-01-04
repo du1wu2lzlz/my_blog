@@ -29,6 +29,12 @@
   
  ***
  
+### 立即调用函数
+
+   [IIFE](https://github.com/dongshaohan/IIFE)
+   
+ ***
+ 
 ### TODO
 
    [这里](http://blog.csdn.net/u014328357/article/details/58587132)的题目没有刷
