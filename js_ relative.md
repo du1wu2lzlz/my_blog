@@ -1,4 +1,4 @@
-+ web性能优化 
++ [web性能优化](#web) 
 
 ## 记录下日常的js积累以及todo-list  
    部分会写在[简书](https://www.jianshu.com/u/526461ebe7f6)上面  
@@ -39,5 +39,5 @@
    
 ***
 
-[web性能优化](https://github.com/dongshaohan/jsnote#optimize)
+<a name="web"/>web性能优化
 
