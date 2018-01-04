@@ -18,3 +18,23 @@ bar();
  */
  
 ```
+
+2. this的指向问题
+```
+var x = 20;
+var temp = {
+    x: 40,
+    foo: function () {
+        var x = 10;
+        return this.x;
+    }
+};
+
+console.log( temp.foo() );  			// 40 this对象为temp，this.x等于temp.x
+console.log( (temp.foo)() ); 			// 40 
+console.log( (temp.foo = temp.foo)() ); // 20   不懂
+console.log( (temp.foo, temp.foo)() );	// 20   不懂
+console.log( temp.foo.apply(window) );  // 20 apply使temp.foo的this对象为window上下文，this.x等于window.x
+console.log( temp.foo.apply(temp) ); 	// 40 apply使temp.foo的this对象指向temp上下文，this.x等于temp.x
+
+```
