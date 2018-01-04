@@ -120,5 +120,6 @@ IE的缺省DNS缓存时间为30分钟，Firefox的缺省缓冲时间是1分钟�
 3. 图片很浪费内存，使用要小心。
 4. visibility:hidden，display:none都可以节约内存。
 ```
+
 [回到顶部](#top) 
 
