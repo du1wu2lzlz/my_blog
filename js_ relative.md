@@ -1,3 +1,5 @@
++ web性能优化 
+
 ## 记录下日常的js积累以及todo-list  
    部分会写在[简书](https://www.jianshu.com/u/526461ebe7f6)上面  
 [这里](https://segmentfault.com/u/du1wu2/bookmarks)收藏了segmentfault上面的一些有用的回答
@@ -34,3 +36,8 @@
 ### TODO
 
    [这里](http://blog.csdn.net/u014328357/article/details/58587132)的题目没有刷
+   
+***
+
+[web性能优化](https://github.com/dongshaohan/jsnote#optimize)
+
