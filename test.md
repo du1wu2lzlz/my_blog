@@ -1,8 +1,8 @@
-###笔试题
+### 笔试题
 
-1. 考察this作用域
+1.  考察this作用域
 
-```
+ ```
 var foo = {
 	bar: '你好',
 	func: function () {
@@ -17,4 +17,4 @@ bar();
  * 所以alert(this.bar)等于alert(window.bar)，也就是alert函数自身。
  */
  
-```
+ ```
