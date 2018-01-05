@@ -1,6 +1,7 @@
 + [web性能优化](#web) 
 + [http相关](#http)
 + [浏览器的渲染机制](#broswer)
++ [冴羽写博客的地方，预计写四个系列：JavaScript深入系列、JavaScript专题系列、ES6系列、React系列。](https://github.com/mqyqingfeng/Blog)
 
 ## 记录下日常的js积累以及todo-list<a name="top"/>
    部分会写在[简书](https://www.jianshu.com/u/526461ebe7f6)上面  
