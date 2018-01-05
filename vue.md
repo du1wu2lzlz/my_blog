@@ -1,5 +1,5 @@
 
-+ 虚拟DOM
++ 虚拟DOM  
 更新DOM是非常昂贵的操作，我们可以用JavaScript对象来代替DOM节点  
 比如：  
 DOM节点在HTML文档中的表现通常是这样的：  
