@@ -1,5 +1,6 @@
 + [web性能优化](#web) 
 + [http相关](#http)
++ [浏览器的渲染机制](#broswer)
 
 ## 记录下日常的js积累以及todo-list<a name="top"/>
    部分会写在[简书](https://www.jianshu.com/u/526461ebe7f6)上面  
@@ -174,6 +175,8 @@ http相关<a name="http"/>
 505   （HTTP 版本不受支持） 服务器不支持请求中所用的 HTTP 协议版本。
 
 ```
+
+<a  name="broswer"/>[浏览器渲染机制](https://github.com/slashhuang/translation/blob/master/%E6%B5%8F%E8%A7%88%E5%99%A8%E6%B8%B2%E6%9F%93%E6%9C%BA%E5%88%B6)
 
 [更多参考](https://github.com/dongshaohan/jsnote#optimize)
 
