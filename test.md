@@ -38,3 +38,18 @@ console.log( temp.foo.apply(window) );  // 20 apply使temp.foo的this对象为wi
 console.log( temp.foo.apply(temp) ); 	// 40 apply使temp.foo的this对象指向temp上下文，this.x等于temp.x
 
 ```
+
+3. 
+
+```javasrcipt
+var foo={n:1};
+(function(foo){
+   cosole.log(foo.n);
+   foo.n=3;
+   var foo={n:2};
+   cosole.log(foo.n);
+})(foo);
+   cosole.log(foo.n);
+   
+```
+
