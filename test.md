@@ -52,4 +52,16 @@ var foo={n:1};
    console.log(foo.n);
    
 ```
-
+4.
+```javascript
+function Foo(){
+    var i =0;
+    return function() {
+        document.write(i++);
+    }
+}
+var f1=Foo();
+f1();
+f1();
+f2();
+```
