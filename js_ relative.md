@@ -232,9 +232,13 @@ http相关<a name="http"/>
 CSSOM View Module (CSS Object Model View)即css视图模块   
 
 <a name="javascript">
-参数:  
-   ECMAScript函数的参数与大多数语言中函数的参数有所不同, ECMAScript函数的参数在内部是用一个数组来表示的,在函数体内可以通过arguments  
-   对象来访问这个参数的数组,从而获取传递给函数的每一个参数  
+   
+### 参数: 
+```
+   ECMAScript函数的参数与大多数语言中函数的参数有所不同, ECMAScript函数的参数在内部是用一个数组来表示的,
+   在函数体内可以通过arguments  
+   对象来访问这个参数的数组,从而获取传递给函数的每一个参数 
+```   
    即 ECMAScript函数的一个重要特点:命名的参数只提供便利,但不是必须的
 
 [回到顶部](#top)
