@@ -2,6 +2,7 @@
 + [http相关](#http)
 + [浏览器的渲染机制](#broswer)
 + [冴羽写博客的地方，预计写四个系列：JavaScript深入系列、JavaScript专题系列、ES6系列、React系列。](https://github.com/mqyqingfeng/Blog)
++ [ECMAScript特点](#javascript)
 
 ## 记录下日常的js积累以及todo-list<a name="top"/>
    部分会写在[简书](https://www.jianshu.com/u/526461ebe7f6)上面  
@@ -229,6 +230,9 @@ http相关<a name="http"/>
 
  <a name="broswer"/> [浏览器渲染机制](https://github.com/slashhuang/translation/blob/master/%E6%B5%8F%E8%A7%88%E5%99%A8%E6%B8%B2%E6%9F%93%E6%9C%BA%E5%88%B6)  
 CSSOM View Module (CSS Object Model View)即css视图模块   
+
+<a name="javascript">
+   
 
 [回到顶部](#top)
 
