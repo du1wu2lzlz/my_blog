@@ -44,12 +44,12 @@ console.log( temp.foo.apply(temp) ); 	// 40 apply使temp.foo的this对象指向t
 ```javascript
 var foo={n:1};
 (function(foo){
-   cosole.log(foo.n);
+   console.log(foo.n);
    foo.n=3;
    var foo={n:2};
-   cosole.log(foo.n);
+   console.log(foo.n);
 })(foo);
-   cosole.log(foo.n);
+   console.log(foo.n);
    
 ```
 
