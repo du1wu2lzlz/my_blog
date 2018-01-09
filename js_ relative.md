@@ -232,7 +232,8 @@ http相关<a name="http"/>
 CSSOM View Module (CSS Object Model View)即css视图模块   
 
 <a name="javascript">
-   
+参数:  
+   ECMAScript函数的参数与大多数语言中函数的参数有所
 
 [回到顶部](#top)
 
