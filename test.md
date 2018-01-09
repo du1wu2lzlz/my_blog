@@ -65,3 +65,17 @@ f1();
 f1();
 f2();
 ```
+5.
+```javascript
+var color = 'green';
+var test = {
+  color: 'blue',
+  getColor:function(){
+    var color = 'red';
+    alert(this.color);
+   }
+}
+var getColor = test.getColor;
+getColor();
+test.getColor();
+```
