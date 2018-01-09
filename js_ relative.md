@@ -48,8 +48,8 @@
 
 
 ### 什么是 Event Loop？
-  
-  [可以参照下阮老师写的这篇文章](http://www.ruanyifeng.com/blog/2014/10/event-loop.html)
+  事件轮询   
+ [可以参照下阮老师写的这篇文章](http://www.ruanyifeng.com/blog/2014/10/event-loop.html)
 
 ***
 
