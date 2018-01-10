@@ -14,3 +14,5 @@
 +  [一些相对全的面试题以及答案](https://github.com/infp/Front-end-Interview)  
 
 +  汤姆大叔[深入理解js系列](http://www.cnblogs.com/TomXu/archive/2011/12/15/2288411.html#3848276)
+
++ [常见面试题答案](https://github.com/qiu-deqing/FE-interview#%E5%89%8D%E7%AB%AF%E9%9C%80%E8%A6%81%E6%B3%A8%E6%84%8F%E5%93%AA%E4%BA%9Bseo)
