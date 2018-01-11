@@ -18,4 +18,5 @@
 
  ps [markdown语法参考](https://github.com/dongshaohan/ReadMe)    
  
-JS基础：[JavaScript 标准参考教程](http://javascript.ruanyifeng.com/)    
+JS基础：[JavaScript 标准参考教程](http://javascript.ruanyifeng.com/)     
+ES6入门: [ES6](http://es6.ruanyifeng.com/#docs/async)  
