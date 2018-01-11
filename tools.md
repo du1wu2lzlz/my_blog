@@ -12,3 +12,6 @@
    
    * emulation：模拟移动端环境，mobile页面开发必备 
    
+   
++ vscode  
+  预览md -- Ctrl+Shift+v
