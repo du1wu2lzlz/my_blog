@@ -16,5 +16,6 @@
 [一起学习KOA吧](https://github.com/17koa/koa-generator-examples)  
 [ES6](http://es6.ruanyifeng.com/#docs/async)  
 
-ps [markdown语法参考](https://github.com/dongshaohan/ReadMe)      
-JS基础：[JavaScript 标准参考教程](http://javascript.ruanyifeng.com/)
+ ps [markdown语法参考](https://github.com/dongshaohan/ReadMe)    
+ 
+JS基础：[JavaScript 标准参考教程](http://javascript.ruanyifeng.com/)    
