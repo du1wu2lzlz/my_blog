@@ -1,4 +1,5 @@
 
+
 // a = "xyaabbbccccdefww" b = "xxxxyyyyabklmopq" 
   //longest(a, b) -> "abcdefklmopqwxy"
 var a = 'xyaabbbccccdefww';
@@ -17,9 +18,11 @@ function longest(s1, s2) {
 //3.如果不相同，则将该元素存入结果数组中
 Array.prototype.unique = function(){
     this.sort(); //先排序
-    var res = [this[0]];
-    for(var i = 1; i < this.length; i++){
+    var res = [this[0]]; //结果数组
+    for(var i = 1; i < this.length; i++){  //从第二项开始遍历
      if(this[i] !== res[res.length - 1]){
+          //如果调用unique()方法的数组的第i项在数组中第一次出现的位置是i，
+        //那么表示第i项是不重复的，则存入结果数组
       res.push(this[i]);
      }
     }
