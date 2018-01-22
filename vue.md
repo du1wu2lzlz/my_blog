@@ -1,6 +1,8 @@
 
-## 虚拟DOM  
-更新DOM是非常昂贵的操作，我们可以用JavaScript对象来代替DOM节点  
+## axios
+axios的then中的this不是当前vue实例中的this 原因(https://stackoverflow.com/questions/40996344/axios-cant-set-data)
+## 虚拟DOM  
+更新DOM是非常昂贵的操作，我们可以用JavaScript对象来代替DOM节点   
 在浏览器中我们可以通过js来操作DOM，但是这样的操作性能很差，于是Virtual Dom应运而生。  
 Virtual Dom可以理解为在js中模拟DOM对象树来优化DOM操作的一种技术或思路    
 比如：  
