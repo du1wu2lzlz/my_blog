@@ -29,3 +29,5 @@ Array.prototype.unique = function(){
     return res;
    }
 longest(a,b);
+
+//更多方法 https://www.imooc.com/article/15338
