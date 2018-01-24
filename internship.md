@@ -14,3 +14,6 @@ javascript给这个img标签的src属性后面拼接一个 ? 和 javascript对�
 解决办法： 
 var img_src ='http://www.ilsea.net/images/seagull.jpg?t='+Math.random(); 
 这样给图片地址拼接一个随机数，用js重新给 img 的 src 赋值，okay
+
++  vue2.0中mounted后不能保证到有vue实例了
+   在mounted加个this.$nextTick方法
