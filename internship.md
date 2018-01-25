@@ -22,9 +22,9 @@ var img_src ='http://www.ilsea.net/images/seagull.jpg?t='+Math.random();
 + Number()、parseInt()、parseFloat()的区别  
 1. Number():可以用于任何数据类型转换成数值；
 parseInt()、parseFloat():专门用于把字符串转换成数值；
-2. Number()
-Number():
-
+2. Number()  
+Number():   
+```
 1）如果是Boolean值，true和false将分别转换为1和0。
 
 2）如果是数字值，只是简单的传入和返回。
@@ -34,6 +34,7 @@ Number():
 4）如果是undefined,返回NaN。
 
 5）如果是字符串，遵循下列规则：
+```
 
 ```
 如果是字符串中只包含数字（包括前面带正号或负号的情况），则将其转换为十进制数值，即“1”变成1，“123”会变成123，而“011”会变成11（前导的零被忽略了）；
