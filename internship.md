@@ -16,4 +16,5 @@ var img_src ='http://www.ilsea.net/images/seagull.jpg?t='+Math.random();
 这样给图片地址拼接一个随机数，用js重新给 img 的 src 赋值，okay 
 
 +  vue2.0中mounted后不能保证到有vue实例了
-   在mounted加个this.$nextTick方法
+   在mounted加个this.$nextTick方法   
+   将回调延迟到下次 DOM 更新循环之后执行。在修改数据之后立即使用它，然后等待 DOM 更新。它跟全局方法 Vue.nextTick 一样，不同的是回调的 this 自动绑定到    调用它的实例上。
