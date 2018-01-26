@@ -79,5 +79,38 @@ stream
          console.log(4.1,Math.trunc(4.1));             // 4
          console.log(4.9,Math.trunc(4.9));             // 4
        }
+     4.4 立方根
+       {
+          console.log('-1',Math.cbrt(-1));             // -1
+          console.log('8',Math.cbrt(8));               // 2
+        }
 
 ```
+  5. 数组扩展
+  ```javascript
+     5.1 Array.of 将一组数据变量转化为数据类型
+         {
+           let arr = Array.of(3,4,7,9,11);             
+           console.log('arr=',arr);                     // arr= [3,4,7,9,11]
+
+           let empty=Array.of();
+           console.log('empty',empty);                  // empty = []
+         }
+      5.2 Array.from 
+         {
+            let p=document.querySelectorAll('p');
+            let pArr=Array.from(p);
+            pArr.forEach(function(item){
+              console.log(item.textContent);
+            });
+
+          console.log(Array.from([1,3,5],function(item){return item*2})); //[2,6,10]
+        }
+       5.3 填充数组 fill
+          {
+             console.log( [1,'a',undefined].fill(7) );          // [7,7,7]
+             console.log( ['a','b','c'].fill(7,1,3) );          // ['a',7,7 ]
+           }
+
+
+  ```
