@@ -85,3 +85,26 @@ var num3=parseFloat("0908.5");      //908.5
 
 var num4=parseFloat("3.125e7");             //31250000
 ```
+
+
+商旅部分 
+
+slidebar 组件  art-template
+css 预订人与邮箱样式调整 机票下单信息提示优化
+商旅出游表单内容改变 逻辑调整 入住人数 格式校验等
+
+
+团队游
+Boss3订单系统
+修改订单详情
+与后端交流 门票资源 某接口返回值 outorderID  buyNum等 返回错误 预期为1 ,导致前端显示错误 
+
+ftl的修改 
+
+行程订制系统 vue  
+侧边栏行程报价逻辑
+点击获取按钮的gtype显示跳转到不同页面
+
+gulp 打包 gulp build_dev   改完js编译
+
+
