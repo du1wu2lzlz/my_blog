@@ -13,32 +13,48 @@
 // 输出 : {"name":"wz=?1","age?":"18"}
 // 特殊输入 : "" 
 // 输出 : {}
+// 获取url : window.location.href
 
+// var url = "http://www.taobao.com/index.php?key0=0&key1=1&key2=2";
 
-var url = "http://www.taobao.com/index.php?key0=0&key1=1&key2=2";
+//  function parseQueryString(url){
+//     var arr;
+//     var res = {};
+//     //#符号之后的值称为hash，都不会加到request请求中去
+//     url = url.split('#')[0];
+//     //获取queryString 第一个？号后面的全是查询字符串
+//     arr = url.split('?');
+//     arr.shift();
+//     var queryStr = arr.join('?');
+//     //查询字符串为空直接返回 避免出现这样的返回值{"":""}
+//     if (queryStr.trim().length == 0){
+//         return res;
+//     }
 
- function parseQueryString(url){
-    var arr;
-    var res = {};
-    //#符号之后的值称为hash，都不会加到request请求中去
-    url = url.split('#')[0];
-    //获取queryString 第一个？号后面的全是查询字符串
-    arr = url.split('?');
-    arr.shift();
-    var queryStr = arr.join('?');
-    //查询字符串为空直接返回 避免出现这样的返回值{"":""}
-    if (queryStr.trim().length == 0){
-        return res;
-    }
+//     //获取参数
+//     arr = queryStr.split('&');
+//     for (var i = 0; i <  arr.length; i++) {
+//         var itemArr = arr[i].split('=');
+//         //第一个=号之前的是name 后面的全是值
+//         var name = itemArr.shift();
+//         var value = itemArr.join('=');
+//         res[name] = value;
+//     }
+//     return res;
+// }
 
-    //获取参数
-    arr = queryStr.split('&');
-    for (var i = 0; i <  arr.length; i++) {
-        var itemArr = arr[i].split('=');
-        //第一个=号之前的是name 后面的全是值
-        var name = itemArr.shift();
-        var value = itemArr.join('=');
-        res[name] = value;
-    }
-    return res;
+function getUrlkey(url){
+  var params = {},
+      arr = url.split("?");
+  if (arr.length <= 1)
+      return params;
+  arr = arr[1].split("&");
+  for(var i=0, l=arr.length; i<l; i++){
+      var a = arr[i].split("=");
+      params[a[0]] = a[1];
+  }
+  return params;
 }
+var url = "http://www.chenwenbo.info?key0=0&key1=1&key2=2",
+  ps = getUrlkey(url);
+console.log(ps);
