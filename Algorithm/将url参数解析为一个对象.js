@@ -58,3 +58,25 @@ function getUrlkey(url){
 var url = "http://www.chenwenbo.info?key0=0&key1=1&key2=2",
   ps = getUrlkey(url);
 console.log(ps);
+
+
+// function parseQueryString(url){
+   
+  
+//     var obj = {};
+    
+//     for(var i=0;i<url.length;i++){
+      
+//        var a =  url[i].trim().split(':');
+//        obj[a[0]] = a[1].split(',');
+      
+        
+//     }
+//     console.log(obj);
+//     return obj
+    
+// }
+// var url = [ "PRD_NBR:CR026601,CR026101", "crl_sts:USED,APRJ,ENDC,PAUS,CLER", "BAL_YER:0,0,0", "BAL_MON:0,0,0" ]
+
+
+// parseQueryString(url);
