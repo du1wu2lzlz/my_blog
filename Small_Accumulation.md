@@ -27,3 +27,6 @@ micro-task队列真实包含任务：
 process.nextTick, Promises, Object.observe, MutationObserver
 
 ```
+## web性能优化-懒加载
+  函数节流   
+  函数防抖  
