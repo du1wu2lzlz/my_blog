@@ -42,3 +42,4 @@ process.nextTick, Promises, Object.observe, MutationObserver
       3. 理论上委托会导致浏览器频繁调用处理函数，虽然很可能不需要处理。所以建议就近委托，比如在table上代理td，而不是在document上代理td。
       4. 把所有事件都用代理就可能会出现事件误判。比如，在document中代理了所有button的click事件，另外的人在引用改js时，可能不知道，造成单击button触          发了两个click事件。
 ```
+  ## vue 如何实现双向绑定(对象与数组)
