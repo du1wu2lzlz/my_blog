@@ -10,4 +10,4 @@ my personal blog not limited to ```react``` ,```vue```,```ES6```,```webpack```
 
 + [算法相关可以参考这里](https://github.com/CyC2018/Interview-Notebook/blob/master/notes/Leetcode%20%E9%A2%98%E8%A7%A3.md#%E7%AE%97%E6%B3%95%E6%80%9D%E6%83%B3)
 
-+ [遇到的React性能优化的各种方式](https://github.com/du1wu2lzlz/my_blog/issues/15
++ [遇到的React性能优化的各种方式](https://github.com/du1wu2lzlz/my_blog/issues/15)
